@@ -1,4 +1,4 @@
 # GoGo
-GoGo is a repository to practice Go Programming
+Repository to practice programming using GoLang.
 
 ![French Gogo](./gogo.jpg)

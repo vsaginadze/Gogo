@@ -1,0 +1,15 @@
+created main.go
+
+initialized the url to parse -> main.go ln:13
+
+fetched the webpage using "net/http" -> main.go ln:16-19
+    get website using http.Get("linkToUrl") (returns resp, err) ln:16
+    check if there is ANY error ln:17
+    log the message in case of error using log.Fatalf ln:18
+    defer the resources resp.Body.Close() ln:19
+
+loads the html file using goquery -> main.go ln:23-26
+
+get the title using find -> main.go ln:29-30
+
+
